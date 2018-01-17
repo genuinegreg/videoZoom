@@ -1,0 +1,10 @@
+{
+  "name": "videoZoom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Greg <projects@gregoire-audoux.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
