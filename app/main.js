@@ -8,7 +8,7 @@ let y = 0;
 
 
 body.addEventListener('wheel', (event) => {
-    let _zoom = zoom + event.deltaY / 50;
+    let _zoom = zoom - event.deltaY / 50;
     zoom = _zoom < .1 ? .1 : ((_zoom > 2) ? 2 : _zoom)
     info.innerText = `zoom ${zoom}`;
 
