@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>video zoom</title>
+</head>
+
+<body id="body">
+
+<div id="main">
+
+    <video
+            id="video"
+            class="video-js vjs-default-skin"
+            controls
+            autoplay
+            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=C_x9_GeXpXA"}]  }'
+    >
+    </video>
+
+</div>
+
+<div id="controls">
+
+</div>
+<div id="info">
+    zoom : test
+</div>
+
+
+<script src="main.js"></script>
+<script src="node_modules/video.js/dist/video.min.js"></script>
+<script src="node_modules/videojs-youtube/dist/Youtube.js"></script>
+<link rel="stylesheet" href="style.css">
+<link type="text/css" rel="stylesheet" href="node_modules/video.js/dist/video-js.min.css" />
+</body>
+</html>
